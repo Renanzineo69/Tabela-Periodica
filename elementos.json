@@ -1,0 +1,1182 @@
+{
+    "1": {
+        "name": "Hidrogênio",
+        "symbol": "H",
+        "atomic_number": 1,
+        "atomic_mass": 1.008,
+        "group": "1",
+        "period": "1",
+        "category": "Não-metal",
+        "description": "O hidrogênio é um gás incolor, inodoro, insípido, não tóxico e altamente inflamável."
+    },
+    "2": {
+        "name": "Hélio",
+        "symbol": "He",
+        "atomic_number": 2,
+        "atomic_mass": 4.0026,
+        "group": "18",
+        "period": "1",
+        "category": "Gás nobre",
+        "description": "O hélio é um gás incolor, inodoro, insípido, não tóxico, inerte e monatômico."
+    },
+    "3": {
+        "name": "Lítio",
+        "symbol": "Li",
+        "atomic_number": 3,
+        "atomic_mass": 6.941,
+        "group": 1,
+        "period": 2,
+        "category": "Metal alcalino",
+        "description": "O lítio é um metal alcalino macio, prateado, altamente reativo e o mais leve entre os metais sólidos. Ele reage rapidamente com a água e forma óxidos quando exposto ao ar."
+    },
+    "4": {
+        "name": "Berílio",
+        "symbol": "Be",
+        "atomic_number": 4,
+        "atomic_mass": 9.0122,
+        "group": 2,
+        "period": 2,
+        "category": "Metal alcalino-terroso",
+        "description": "O berílio é um metal alcalino-terroso duro, de cor cinza-prateada, leve e altamente tóxico. Ele não reage com a água, mas reage com ácidos fortes e bases concentradas."
+    },
+    "5": {
+        "name": "Boro",
+        "symbol": "B",
+        "atomic_number": 5,
+        "atomic_mass": 10.811,
+        "group": 13,
+        "period": 2,
+        "category": "Metaloide",
+        "description": "O boro é um metaloide de cor marrom escura, duro e quebradiço. Ele não é encontrado na natureza em sua forma pura, sendo geralmente encontrado em compostos, como o bórax."
+    },
+    "6": {
+        "name": "Carbono",
+        "symbol": "C",
+        "atomic_number": 6,
+        "atomic_mass": 12.0107,
+        "group": 14,
+        "period": 2,
+        "category": "Não-metal",
+        "description": "O carbono é um não-metal essencial para a vida, encontrado em diversas formas, como grafite, diamante e carvão. Ele é a base de todos os compostos orgânicos e tem uma alta capacidade de formar ligações covalentes."
+    },
+    "7": {
+        "name": "Nitrogênio",
+        "symbol": "N",
+        "atomic_number": 7,
+        "atomic_mass": 14.0067,
+        "group": 15,
+        "period": 2,
+        "category": "Não-metal",
+        "description": "O nitrogênio é um gás incolor, inodoro e insípido, que constitui cerca de 78% da atmosfera terrestre. Ele é essencial para a vida e é utilizado na produção de fertilizantes e na indústria química."
+    },
+    "8": {
+        "name": "Oxigênio",
+        "symbol": "O",
+        "atomic_number": 8,
+        "atomic_mass": 15.9994,
+        "group": 16,
+        "period": 2,
+        "category": "Não-metal",
+        "description": "O oxigênio é um gás incolor, inodoro e insípido, essencial para a respiração de organismos aeróbicos. Ele compõe cerca de 21% da atmosfera e é fundamental na formação da água e na combustão."
+    },
+    "9": {
+        "name": "Flúor",
+        "symbol": "F",
+        "atomic_number": 9,
+        "atomic_mass": 18.9984,
+        "group": 17,
+        "period": 2,
+        "category": "Halogênio",
+        "description": "O flúor é um gás amarelo pálido, altamente reativo e tóxico. É o elemento mais eletronegativo e forma compostos com quase todos os outros elementos, sendo amplamente utilizado em produtos de higiene dental e em processos industriais."
+    },
+    "10": {
+        "name": "Neônio",
+        "symbol": "Ne",
+        "atomic_number": 10,
+        "atomic_mass": 20.1797,
+        "group": 18,
+        "period": 2,
+        "category": "Gás nobre",
+        "description": "O neônio é um gás nobre incolor, inodoro e insípido. É muito raro na atmosfera terrestre e é amplamente utilizado em sinais luminosos e lâmpadas de néon devido ao seu brilho avermelhado quando eletrificado."
+    },
+    "11": {
+        "name": "Sódio",
+        "symbol": "Na",
+        "atomic_number": 11,
+        "atomic_mass": 22.9898,
+        "group": 1,
+        "period": 3,
+        "category": "Metal alcalino",
+        "description": "O sódio é um metal alcalino macio, de cor prateada, altamente reativo e encontrado na natureza principalmente em compostos como o sal de cozinha (NaCl). Ele reage violentamente com a água, produzindo hidróxido de sódio e hidrogênio."
+    },
+    "12": {
+        "name": "Magnésio",
+        "symbol": "Mg",
+        "atomic_number": 12,
+        "atomic_mass": 24.3050,
+        "group": 2,
+        "period": 3,
+        "category": "Metal alcalino-terroso",
+        "description": "O magnésio é um metal alcalino-terroso leve, de cor prateada, e é essencial para a vida. Ele é amplamente utilizado em ligas metálicas e na fabricação de produtos como papel, vidro e como suplemento alimentar."
+    },
+    "13": {
+        "name": "Alumínio",
+        "symbol": "Al",
+        "atomic_number": 13,
+        "atomic_mass": 27,
+        "group": 3,
+        "period": 3,
+        "category": "Metal",
+        "description": "O alumínio é um metal leve, prateado e maleável. Ele é amplamente utilizado em diversas indústrias, como a automotiva, aeroespacial e na fabricação de embalagens, devido à sua leveza e resistência à corrosão."
+    },
+    "14": {
+        "name": "Silício",
+        "symbol": "Si",
+        "atomic_number": 14,
+        "atomic_mass": 28.0855,
+        "group": 14,
+        "period": 3,
+        "category": "Metaloide",
+        "description": "O silício é um metaloide duro e quebradiço, de cor cinza-escura. É amplamente utilizado na indústria eletrônica, especialmente na fabricação de semicondutores e circuitos integrados, além de ser um componente essencial no vidro e concreto."
+    },
+    "15": {
+        "name": "Fósforo",
+        "symbol": "P",
+        "atomic_number": 15,
+        "atomic_mass": 30.9738,
+        "group": 15,
+        "period": 3,
+        "category": "Não-metal",
+        "description": "O fósforo é um não-metal encontrado principalmente em compostos, como o fosfato. Ele existe em várias formas alótropas, incluindo o fósforo branco, que é altamente reativo e inflamável. O fósforo é essencial para a vida, sendo um componente importante do DNA, RNA e ATP."
+    },
+    "16": {
+        "name": "Enxofre",
+        "symbol": "S",
+        "atomic_number": 16,
+        "atomic_mass": 32.065,
+        "group": 16,
+        "period": 3,
+        "category": "Não-metal",
+        "description": "O enxofre é um não-metal amarelo, sólido à temperatura ambiente, amplamente encontrado na natureza em compostos, como o sulfato e o sulfeto. É essencial para a vida e utilizado na fabricação de fertilizantes, produtos químicos e na vulcanização da borracha."
+    },
+    "17": {
+        "name": "Cloro",
+        "symbol": "Cl",
+        "atomic_number": 17,
+        "atomic_mass": 35.453,
+        "group": 17,
+        "period": 3,
+        "category": "Halogênio",
+        "description": "O cloro é um gás verde-amarelado, altamente reativo e tóxico. Ele é amplamente utilizado na purificação da água, na produção de plásticos como o PVC, e em diversos produtos químicos industriais."
+    },
+    "18": {
+        "name": "Argônio",
+        "symbol": "Ar",
+        "atomic_number": 18,
+        "atomic_mass": 39.948,
+        "group": 18,
+        "period": 3,
+        "category": "Gás nobre",
+        "description": "O argônio é um gás nobre incolor, inodoro e insípido. Ele constitui cerca de 1% da atmosfera terrestre e é amplamente utilizado em lâmpadas incandescentes, soldagem e na indústria de metais como atmosfera protetora."
+    },
+    "19": {
+        "name": "Potássio",
+        "symbol": "K",
+        "atomic_number": 19,
+        "atomic_mass": 39.0983,
+        "group": 1,
+        "period": 4,
+        "category": "Metal alcalino",
+        "description": "O potássio é um metal alcalino macio, prateado e altamente reativo. É essencial para o funcionamento das células vivas e é amplamente utilizado em fertilizantes e na indústria química."
+    },
+    "20": {
+        "name": "Cálcio",
+        "symbol": "Ca",
+        "atomic_number": 20,
+        "atomic_mass": 40.078,
+        "group": 2,
+        "period": 4,
+        "category": "Metal alcalino-terroso",
+        "description": "O cálcio é um metal alcalino-terroso de cor prateada, essencial para a vida, particularmente na formação de ossos e dentes. Ele é amplamente utilizado na construção civil e na fabricação de cimento, além de ser empregado em ligas metálicas."
+    },
+    "21": {
+        "name": "Escândio",
+        "symbol": "Sc",
+        "atomic_number": 21,
+        "atomic_mass": 44.9559,
+        "group": 3,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O escândio é um metal de transição leve, prateado e muito resistente à corrosão. Ele é utilizado em ligas metálicas, especialmente em ligas de alumínio para a indústria aeroespacial, devido à sua alta resistência e baixo peso."
+    },
+    "22": {
+        "name": "Titânio",
+        "symbol": "Ti",
+        "atomic_number": 22,
+        "atomic_mass": 47.867,
+        "group": 4,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O titânio é um metal de transição leve, forte e altamente resistente à corrosão. É amplamente utilizado na indústria aeroespacial, médica e de esportes, devido à sua combinação de leveza e resistência, sendo também utilizado em implantes e próteses."
+    },
+    "23": {
+        "name": "Venádio",
+        "symbol": "V",
+        "atomic_number": 23,
+        "atomic_mass": 50.9415,
+        "group": 5,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O vanádio é um metal de transição duro e prateado, conhecido por sua alta resistência à corrosão e desgaste. É utilizado em ligas de aço para aumentar a resistência e durabilidade, além de ser empregado em baterias e catalisadores industriais."
+    },
+    "24": {
+        "name": "Cromo",
+        "symbol": "Cr",
+        "atomic_number": 24,
+        "atomic_mass": 51.9961,
+        "group": 6,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O cromo é um metal de transição duro, prateado e altamente resistente à corrosão. Ele é amplamente utilizado para revestimentos, como o cromado, e na fabricação de ligas de aço, proporcionando maior resistência e durabilidade."
+    },
+    "25": {
+        "name": "Manganês",
+        "symbol": "Mn",
+        "atomic_number": 25,
+        "atomic_mass": 54.9380,
+        "group": 7,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O manganês é um metal de transição de cor cinza-prateada, essencial para o funcionamento de muitas enzimas no organismo. Ele é amplamente utilizado na fabricação de aço, aumentando a resistência e a dureza das ligas metálicas."
+    },
+    "26": {
+        "name": "Ferro",
+        "symbol": "Fe",
+        "atomic_number": 26,
+        "atomic_mass": 55.845,
+        "group": 8,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O ferro é um metal de transição, de cor prateada e altamente reativo, utilizado principalmente na fabricação de aço. É um dos metais mais abundantes na crosta terrestre e é essencial para a vida, sendo um componente importante da hemoglobina no sangue."
+    },
+    "27": {
+        "name": "Cobalto",
+        "symbol": "Co",
+        "atomic_number": 27,
+        "atomic_mass": 58.9332,
+        "group": 9,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O cobalto é um metal de transição duro, de cor prateada, utilizado principalmente em ligas metálicas, especialmente em superligas para turbinas de aviões. Também é utilizado na fabricação de baterias recarregáveis e na produção de pigmentos azuis."
+    },
+    "28": {
+        "name": "Níquel",
+        "symbol": "Ni",
+        "atomic_number": 28,
+        "atomic_mass": 58.6934,
+        "group": 10,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O níquel é um metal de transição, prateado e resistente à corrosão. É amplamente utilizado na fabricação de ligas metálicas, especialmente em aço inoxidável, além de ser utilizado em baterias recarregáveis e em moedas."
+    },
+    "29": {
+        "name": "Cobre",
+        "symbol": "Cu",
+        "atomic_number": 29,
+        "atomic_mass": 63.546,
+        "group": 11,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O cobre é um metal de transição de cor avermelhada, amplamente utilizado em condutores elétricos e na fabricação de ligas como o bronze e o latão. Ele é excelente condutor de eletricidade e calor, além de ser utilizado em diversas aplicações industriais e em moedas."
+    },
+    "30": {
+        "name": "Zinco",
+        "symbol": "Zn",
+        "atomic_number": 30,
+        "atomic_mass": 65.409,
+        "group": 12,
+        "period": 4,
+        "category": "Metal de transição",
+        "description": "O zinco é um metal de transição de cor prateada, amplamente utilizado como revestimento para proteger outros metais da corrosão, especialmente no processo de galvanização. Também é utilizado em ligas metálicas e na fabricação de baterias e produtos farmacêuticos."
+    },
+    "31": {
+        "name": "Gálio",
+        "symbol": "Ga",
+        "atomic_number": 31,
+        "atomic_mass": 69.723,
+        "group": 13,
+        "period": 4,
+        "category": "Metal",
+        "description": "O gálio é um metal macio, prateado e quebradiço à temperatura ambiente, mas se torna líquido a cerca de 29,76 °C. Ele é utilizado em eletrônica, especialmente em semicondutores e diodos, e também em ligas de baixa fusão."
+    },
+    "32": {
+        "name": "Germânio",
+        "symbol": "Ge",
+        "atomic_number": 32,
+        "atomic_mass": 72.64,
+        "group": 14,
+        "period": 4,
+        "category": "Metaloide",
+        "description": "O germânio é um metaloide de cor prateada, duro e quebradiço. É utilizado principalmente em dispositivos semicondutores e em fibras óticas, além de ser um material importante em algumas ligas metálicas."
+    },
+    "33": {
+        "name": "Arsénio",
+        "symbol": "As",
+        "atomic_number": 33,
+        "atomic_mass": 74.9216,
+        "group": 15,
+        "period": 4,
+        "category": "Metaloide",
+        "description": "O arsênio é um metaloide tóxico, de cor prateada, que pode se combinar com outros elementos formando compostos venenosos. É utilizado em ligas metálicas e em produtos como pesticidas e semicondutores."
+    },
+    "34": {
+        "name": "Selênio",
+        "symbol": "Se",
+        "atomic_number": 34,
+        "atomic_mass": 78.96,
+        "group": 16,
+        "period": 4,
+        "category": "Não-metal",
+        "description": "O selênio é um não-metal de cor cinza metálico, amplamente utilizado em eletrônicos, como em células solares e diodos, além de ser essencial em pequenas quantidades para a saúde humana, atuando como um antioxidante."
+    },
+    "35": {
+        "name": "Bromo",
+        "symbol": "Br",
+        "atomic_number": 35,
+        "atomic_mass": 79.904,
+        "group": 17,
+        "period": 4,
+        "category": "Halogênio",
+        "description": "O bromo é um halogênio de cor vermelho-alaranjado, é o único elemento líquido à temperatura ambiente. Ele é altamente reativo e utilizado em diversas aplicações industriais, como na fabricação de pesticidas, retardadores de chama e produtos farmacêuticos."
+    },
+    "36": {
+        "name": "Criptônio",
+        "symbol": "Kr",
+        "atomic_number": 36,
+        "atomic_mass": 83.798,
+        "group": 18,
+        "period": 4,
+        "category": "Gás nobre",
+        "description": "O criptônio é um gás nobre incolor, inodoro e insípido. Ele é raramente encontrado na atmosfera em pequenas quantidades e é utilizado principalmente em iluminação, como em lâmpadas fluorescentes e em lasers."
+    },
+    "37": {
+        "name": "Rubídio",
+        "symbol": "Rb",
+        "atomic_number": 37,
+        "atomic_mass": 85.4678,
+        "group": 1,
+        "period": 5,
+        "category": "Metal alcalino",
+        "description": "O rúbídio é um metal alcalino de cor prateada, altamente reativo e raramente encontrado na natureza em estado puro. Ele é utilizado em pesquisas científicas e em aplicações de explosivos e em alguns tipos de células solares."
+    },
+    "38": {
+        "name": "Estrôncio",
+        "symbol": "Sr",
+        "atomic_number": 38,
+        "atomic_mass": 87.62,
+        "group": 2,
+        "period": 5,
+        "category": "Metal alcalino-terroso",
+        "description": "O estrôncio é um metal alcalino-terroso de cor prateada, macio e altamente reativo. Ele é utilizado principalmente em fogos de artifício, onde é responsável pela cor vermelha, e também na fabricação de imãs e em tratamentos médicos, como em radiografias."
+    },
+    "39": {
+        "name": "Ítrio",
+        "symbol": "Y",
+        "atomic_number": 39,
+        "atomic_mass": 88.9058,
+        "group": 3,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O ítrio é um metal de transição prateado e brilhante, utilizado principalmente em ligas metálicas e em materiais cerâmicos, como na produção de LEDs, lasers e em dispositivos de armazenamento magnético."
+    },
+    "40": {
+        "name": "Zircônio",
+        "symbol": "Zr",
+        "atomic_number": 40,
+        "atomic_mass": 91.224,
+        "group": 4,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O zircônio é um metal de transição duro, prateado e altamente resistente à corrosão. É amplamente utilizado em ligas metálicas para a indústria aeroespacial, em reatores nucleares e na fabricação de cerâmicas e dispositivos dentários."
+    },
+    "41": {
+        "name": "Nióbio",
+        "symbol": "Nb",
+        "atomic_number": 41,
+        "atomic_mass": 92.906,
+        "group": 5,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O nióbio é um metal de transição de cor prateada, maleável e altamente resistente à corrosão. Ele é amplamente utilizado em ligas metálicas, especialmente na fabricação de supercondutores, e em aplicações aeroespaciais devido à sua excelente resistência a altas temperaturas."
+    },
+    "42": {
+        "name": "Molibdénio",
+        "symbol": "Mo",
+        "atomic_number": 42,
+        "atomic_mass": 95.94,
+        "group": 6,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O molibdênio é um metal de transição duro e resistente ao calor, utilizado principalmente em ligas de aço, proporcionando resistência à corrosão e ao desgaste. É também empregado na fabricação de filamentos e na indústria química, especialmente em catalisadores."
+    },
+    "43": {
+        "name": "Tecnécio",
+        "symbol": "Tc",
+        "atomic_number": 43,
+        "atomic_mass": 98,
+        "group": 7,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O tecnécio é um metal de transição radioativo e o primeiro elemento a ser produzido artificialmente. Ele é utilizado principalmente em medicina nuclear, em radiografias e em exames de diagnóstico, além de ser empregado em algumas ligas especiais."
+    },
+    "44": {
+        "name": "Rutênio",
+        "symbol": "Ru",
+        "atomic_number": 44,
+        "atomic_mass": 101.07,
+        "group": 8,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O rutênio é um metal de transição raro e duro, de cor prateada, utilizado principalmente em ligas metálicas, especialmente para melhorar a resistência e durabilidade de outros metais. É também empregado como catalisador em reações químicas e em dispositivos eletrônicos."
+    },
+    "45": {
+        "name": "Ródio",
+        "symbol": "Rh",
+        "atomic_number": 45,
+        "atomic_mass": 102.905,
+        "group": 9,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O ródio é um metal de transição prateado, altamente reflexivo e resistente à corrosão. Ele é amplamente utilizado como catalisador em reações químicas, especialmente em sistemas automotivos para reduzir emissões de gases, além de ser empregado na fabricação de joias e em revestimentos de alta qualidade."
+    },
+    "46": {
+        "name": "Paládio",
+        "symbol": "Pd",
+        "atomic_number": 46,
+        "atomic_mass": 106.42,
+        "group": 10,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O paládio é um metal de transição de cor prateada, altamente resistente à corrosão e ao desgaste. Ele é amplamente utilizado como catalisador em processos industriais, especialmente na fabricação de catalisadores automotivos, e em joias e eletrônicos devido à sua excelente condutividade."
+    },
+    "47": {
+        "name": "Prata",
+        "symbol": "Ag",
+        "atomic_number": 47,
+        "atomic_mass": 107.8682,
+        "group": 11,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "A prata é um metal de transição de cor branca e brilho metálico, amplamente utilizada em joalheria, eletrônicos e na fabricação de moedas. Ela é excelente condutora de eletricidade e calor e tem propriedades antimicrobianas."
+    },
+    "48": {
+        "name": "Cádmio",
+        "symbol": "Cd",
+        "atomic_number": 48,
+        "atomic_mass": 112.411,
+        "group": 12,
+        "period": 5,
+        "category": "Metal de transição",
+        "description": "O cádmio é um metal de transição de cor prateada, macio e maleável. Ele é amplamente utilizado em baterias recarregáveis e em revestimentos de metais para proteção contra a corrosão. No entanto, é tóxico e seu uso é restrito em muitas aplicações devido aos riscos ambientais e de saúde."
+    },
+    "49": {
+        "name": "Índio",
+        "symbol": "In",
+        "atomic_number": 49,
+        "atomic_mass": 114.818,
+        "group": 13,
+        "period": 5,
+        "category": "Metal",
+        "description": "O índio é um metal macio, prateado e maleável, utilizado principalmente em componentes eletrônicos, como contatos elétricos e displays de cristal líquido (LCD). Ele é conhecido por sua alta condutividade elétrica e capacidade de formar ligas com outros metais."
+    },
+    "50": {
+        "name": "Estanho",
+        "symbol": "Sn",
+        "atomic_number": 50,
+        "atomic_mass": 118.710,
+        "group": 14,
+        "period": 5,
+        "category": "Metal",
+        "description": "O estanho é um metal macio, maleável e prateado, amplamente utilizado em ligas metálicas, como o bronze, e no revestimento de outros metais para evitar a corrosão. Ele também é utilizado na fabricação de soldas e embalagens, como latas de alimentos."
+    },
+    "51": {
+        "name": "Antimônio",
+        "symbol": "Sb",
+        "atomic_number": 51,
+        "atomic_mass": 121.760,
+        "group": 15,
+        "period": 5,
+        "category": "Metaloide",
+        "description": "O antimônio é um metaloide de cor prateada, quebradiço e utilizado em ligas metálicas, materiais pirotécnicos e na produção de semicondutores. Ele também tem aplicações em produtos de solda e em tratamentos de madeira."
+    },
+    "52": {
+        "name": "Telúrio",
+        "symbol": "Te",
+        "atomic_number": 52,
+        "atomic_mass": 128.60,
+        "group": 16,
+        "period": 5,
+        "category": "Metaloide",
+        "description": "O telúrio é um metaloide de cor prateada, quebradiço e raro na crosta terrestre. Ele é utilizado principalmente em ligas metálicas, em dispositivos semicondutores e como material para células solares, além de ser um aditivo para melhorar a resistência ao desgaste de certos materiais."
+    },
+    "53": {
+        "name": "Iodo",
+        "symbol": "I",
+        "atomic_number": 53,
+        "atomic_mass": 126.904,
+        "group": 17,
+        "period": 5,
+        "category": "Halogênio",
+        "description": "O iodo é um halogênio de cor roxa e altamente reativo. É utilizado principalmente como desinfetante e na fabricação de tinturas para a pele. Também é um elemento essencial na síntese de hormônios tireoidianos e é utilizado em medicina para o tratamento de doenças da tireoide."
+    },
+    "54": {
+        "name": "Xenônio",
+        "symbol": "Xe",
+        "atomic_number": 54,
+        "atomic_mass": 131.293,
+        "group": 18,
+        "period": 5,
+        "category": "Gás nobre",
+        "description": "O xenônio é um gás nobre incolor, inodoro e insípido, encontrado em quantidades muito pequenas na atmosfera terrestre. Ele é utilizado principalmente em lâmpadas de alta intensidade e em aplicações de iluminação especializada, além de ser empregado em alguns tipos de anestesia."
+    },
+    "55": {
+        "name": "Césio",
+        "symbol": "Cs",
+        "atomic_number": 55,
+        "atomic_mass": 132.9054,
+        "group": 1,
+        "period": 6,
+        "category": "Metal alcalino",
+        "description": "O césio é um metal alcalino macio, dourado e altamente reativo. Ele é utilizado em relógios atômicos, devido à sua alta precisão, e também em equipamentos de imagem médica e na indústria de petróleo."
+    },
+    "56": {
+        "name": "Bário",
+        "symbol": "Ba",
+        "atomic_number": 56,
+        "atomic_mass": 137.327,
+        "group": 2,
+        "period": 6,
+        "category": "Metal alcalino-terroso",
+        "description": "O bário é um metal alcalino-terroso macio e de cor prateada, utilizado principalmente em compostos para a fabricação de fogos de artifício, na medicina para exames de raios-X e como aditivo em líquidos de perfuração no setor de petróleo."
+    },
+    "57": {
+        "name": "Lantânio",
+        "symbol": "La",
+        "atomic_number": 57,
+        "atomic_mass": 138.9055,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O lantânio é um metal raro, prateado e maleável, utilizado principalmente em ligas metálicas e na fabricação de supercondutores. Também é utilizado em catalisadores em processos químicos e na produção de óxidos que são usados em lâmpadas e dispositivos eletrônicos."
+    },
+    "58": {
+        "name": "Cério",
+        "symbol": "Ce",
+        "atomic_number": 58,
+        "atomic_mass": 140.116,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O cério é um metal raro, de cor prateada, e é amplamente utilizado em catalisadores automotivos para reduzir as emissões de gases, bem como em ligas metálicas e em dispositivos de iluminação, como lâmpadas de arco."
+    },
+    "59": {
+        "name": "Praseodímio",
+        "symbol": "Pr",
+        "atomic_number": 59,
+        "atomic_mass": 140.9076,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O praseodímio é um metal raro, prateado e maleável, utilizado principalmente em ligas metálicas e como componente de imãs e catalisadores. Ele também é usado em algumas ligas de alto desempenho e na fabricação de vidros especiais e lasers."
+    },
+    "60": {
+        "name": "Neodímio",
+        "symbol": "Nd",
+        "atomic_number": 60,
+        "atomic_mass": 144.242,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O neodímio é um metal raro e prateado, amplamente utilizado em imãs permanentes de alto desempenho, que são empregados em motores elétricos, alto-falantes e discos rígidos. Também é usado em lasers e em ligas de alto desempenho."
+    },
+    "61": {
+        "name": "Promécio",
+        "symbol": "Pm",
+        "atomic_number": 61,
+        "atomic_mass": 145,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O promécio é um elemento raro e radioativo, encontrado apenas em pequenas quantidades em minerais e produzido artificialmente. Ele é utilizado em fontes de radiação, em baterias nucleares e em dispositivos que necessitam de energia elétrica a partir de radiação."
+    },
+    "62": {
+        "name": "Samário",
+        "symbol": "Sm",
+        "atomic_number": 62,
+        "atomic_mass": 150.36,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O samário é um metal raro, prateado e magnético, utilizado principalmente em imãs permanentes de alta performance, que são empregados em motores elétricos, geradores e outros dispositivos. Também tem aplicação em reatores nucleares e em fluorescência."
+    },
+    "63": {
+        "name": "Európio",
+        "symbol": "Eu",
+        "atomic_number": 63,
+        "atomic_mass": 151.964,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O európio é um metal raro, prateado e altamente reativo, utilizado principalmente em fluorescentes e telas de fósforo para monitores e televisores. Ele também é empregado em lasers e como dopante em alguns materiais utilizados em tecnologias de iluminação."
+    },
+    "64": {
+        "name": "Gadolínio",
+        "symbol": "Gd",
+        "atomic_number": 64,
+        "atomic_mass": 157.25,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O gadólínio é um metal raro e prateado, utilizado principalmente em materiais magnéticos e em ligas para gerar campos magnéticos. Ele também tem aplicações médicas, sendo utilizado em contrastes para exames de ressonância magnética (RM)."
+    },
+    "65": {
+        "name": "Térbio",
+        "symbol": "Tb",
+        "atomic_number": 65,
+        "atomic_mass": 158.9253,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O térbio é um metal raro e prateado, amplamente utilizado em ligas metálicas e como dopante em materiais para iluminação. Ele é empregado em lâmpadas fluorescentes e em dispositivos que necessitam de fosforescência, além de ter aplicações no campo da tecnologia de lasers."
+    },
+    "66": {
+        "name": "Disprósio",
+        "symbol": "Dy",
+        "atomic_number": 66,
+        "atomic_mass": 162.500,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O dísprosio é um metal raro, prateado e magnético, utilizado principalmente em imãs de alto desempenho e em ligas metálicas. Ele tem aplicações em sistemas de resfriamento de reatores nucleares e é empregado em algumas tecnologias de laser e em dispositivos de armazenamento magnético."
+    },
+    "67": {
+        "name": "Hólmio",
+        "symbol": "Ho",
+        "atomic_number": 67,
+        "atomic_mass": 164.930,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O hólmio é um metal raro, prateado e altamente magnético. Ele é utilizado em imãs e dispositivos de ressonância magnética (RM), além de ser empregado em lasers e na fabricação de ligas metálicas com alta resistência a altas temperaturas."
+    },
+    "68": {
+        "name": "Érbio",
+        "symbol": "Er",
+        "atomic_number": 68,
+        "atomic_mass": 167.259,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O érbio é um metal raro, prateado, utilizado principalmente em lasers de alta potência e como dopante em fibras óticas. Ele também tem aplicações em componentes de ímãs e em ligas metálicas, especialmente para melhorar suas propriedades mecânicas."
+    },
+    "69": {
+        "name": "Túlio",
+        "symbol": "Tm",
+        "atomic_number": 69,
+        "atomic_mass": 168.9342,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O túlio é um metal raro, prateado e macio, utilizado principalmente em lasers e em equipamentos eletrônicos devido às suas propriedades ópticas. Também é empregado em dispositivos de ressonância magnética e em ligas metálicas para aplicações de alta temperatura."
+    },
+    "70": {
+        "name": "Itérbio",
+        "symbol": "Yb",
+        "atomic_number": 70,
+        "atomic_mass": 173.04,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O ítérbio é um metal raro, prateado e utilizado principalmente em lasers e em fibras óticas, além de ser empregado em supercondutores de alta temperatura. Ele também tem aplicações em ligas metálicas de alta resistência e em tecnologias de ressonância magnética."
+    },
+    "71": {
+        "name": "Lutécio",
+        "symbol": "Lu",
+        "atomic_number": 71,
+        "atomic_mass": 174.967,
+        "group": 3,
+        "period": 6,
+        "category": "Lantanídeos",
+        "description": "O lutécio é um metal raro, prateado e altamente resistente à corrosão. Ele é utilizado em aplicações de alta tecnologia, como em catalisadores em processos químicos e em alguns tipos de lasers de alta potência. Também é usado em pesquisas científicas e em dispositivos de ressonância magnética."
+    },
+    "72": {
+        "name": "Háfnio",
+        "symbol": "Hf",
+        "atomic_number": 72,
+        "atomic_mass": 178.49,
+        "group": 4,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O háfnio é um metal de transição prateado, altamente resistente à corrosão e com alta fusão. Ele é amplamente utilizado em ligas metálicas para componentes de alta temperatura, como em reatores nucleares, e também em dispositivos eletrônicos e revestimentos de proteção."
+    },
+    "73": {
+        "name": "Tântalo",
+        "symbol": "Ta",
+        "atomic_number": 73,
+        "atomic_mass": 180.9479,
+        "group": 5,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O tântalo é um metal de transição de cor prateada, denso e altamente resistente à corrosão. Ele é utilizado principalmente em componentes eletrônicos, como capacitores e resistores, além de ser empregado em ligas metálicas e em aplicações biomédicas, como implantes."
+    },
+    "74": {
+        "name": "Tungstênio",
+        "symbol": "W",
+        "atomic_number": 74,
+        "atomic_mass": 183.84,
+        "group": 6,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O tungstênio é um metal de transição de cor prateada e extremamente resistente ao calor, possuindo o ponto de fusão mais alto de todos os metais. Ele é amplamente utilizado em filamentos de lâmpadas, eletrodos, ligas de alta resistência e em aplicações aeroespaciais devido à sua durabilidade e alta resistência ao desgaste."
+    },
+    "75": {
+        "name": "Rênio",
+        "symbol": "Re",
+        "atomic_number": 75,
+        "atomic_mass": 186.207,
+        "group": 7,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O rênio é um metal de transição raro e denso, altamente resistente à corrosão e com um dos pontos de fusão mais altos entre todos os metais. Ele é utilizado principalmente em ligas para a fabricação de turbinas a gás e em catalisadores para processos petroquímicos."
+    },
+    "76": {
+        "name": "Ósmio",
+        "symbol": "Os",
+        "atomic_number": 76,
+        "atomic_mass": 190.23,
+        "group": 8,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O ósmio é um metal de transição denso, duro e de cor prateada, conhecido por ser o metal mais denso de todos. Ele é utilizado em contatos elétricos, na fabricação de instrumentos de precisão e em ligas metálicas para aplicações especiais devido à sua resistência ao desgaste e à corrosão."
+    },
+    "77": {
+        "name": "Irídio",
+        "symbol": "Ir",
+        "atomic_number": 77,
+        "atomic_mass": 192.217,
+        "group": 9,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O írídio é um metal de transição raro, prateado e altamente resistente à corrosão e ao calor. Ele é amplamente utilizado em componentes de alta temperatura, como em velas de ignição e em equipamentos científicos, além de ser empregado em ligas metálicas e em aplicações aeroespaciais."
+    },
+    "78": {
+        "name": "Platina",
+        "symbol": "Pt",
+        "atomic_number": 78,
+        "atomic_mass": 195.084,
+        "group": 10,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "A platina é um metal de transição prateado, denso e altamente resistente à corrosão. Ela é amplamente utilizada em catalisadores para reações químicas, especialmente em automóveis para reduzir as emissões de gases, além de ser empregada em joias e dispositivos médicos devido à sua biocompatibilidade."
+    },
+    "79": {
+        "name": "Ouro",
+        "symbol": "Au",
+        "atomic_number": 79,
+        "atomic_mass": 196.9666,
+        "group": 11,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O ouro é um metal de transição amarelo, denso e altamente valorizado por sua raridade, beleza e resistência à corrosão. Ele é amplamente utilizado em joias, moedas, como reserva de valor e em aplicações eletrônicas devido à sua excelente condutividade elétrica e resistência."
+    },
+    "80": {
+        "name": "Mercúrio",
+        "symbol": "Hg",
+        "atomic_number": 80,
+        "atomic_mass": 200.59,
+        "group": 12,
+        "period": 6,
+        "category": "Metal de transição",
+        "description": "O mercúrio é um metal de transição prateado e o único metal líquido à temperatura ambiente. Ele é utilizado principalmente em termômetros, barômetros e na indústria elétrica, mas é altamente tóxico e seu uso está sendo cada vez mais restrito devido aos riscos ambientais e à saúde."
+    },
+    "81": {
+        "name": "Tálio",
+        "symbol": "Tl",
+        "atomic_number": 81,
+        "atomic_mass": 204.3833,
+        "group": 13,
+        "period": 6,
+        "category": "Metal",
+        "description": "O tálio é um metal macio e prateado, altamente tóxico, utilizado principalmente em dispositivos eletrônicos, como semicondutores, e em materiais para radiação, além de ser usado na fabricação de compostos químicos em indústrias de vidro e cerâmica."
+    },
+    "82": {
+        "name": "Chumbo",
+        "symbol": "Pb",
+        "atomic_number": 82,
+        "atomic_mass": 207.2,
+        "group": 14,
+        "period": 6,
+        "category": "Metal",
+        "description": "O chumbo é um metal pesado, macio e maleável, de cor cinza-azulada. Ele é altamente tóxico e utilizado em diversas aplicações, como em baterias de chumbo-ácido, soldas, proteção contra radiação e na fabricação de algumas ligas metálicas."
+    },
+    "83": {
+        "name": "Bismuto",
+        "symbol": "Bi",
+        "atomic_number": 83,
+        "atomic_mass": 208.9804,
+        "group": 15,
+        "period": 6,
+        "category": "Metal",
+        "description": "O bismuto é um metal pesado, quebradiço e de cor prateada com reflexos rosados. Ele é utilizado principalmente em ligas metálicas, em cosméticos e como substituto do chumbo em algumas aplicações, devido à sua baixa toxicidade em comparação com outros metais pesados."
+    },
+    "84": {
+        "name": "Polônio",
+        "symbol": "Po",
+        "atomic_number": 84,
+        "atomic_mass": 210,
+        "group": 16,
+        "period": 6,
+        "category": "Metal",
+        "description": "O polônio é um metal radioativo de cor metálica, altamente tóxico e encontrado em pequenas quantidades na natureza. Ele é utilizado principalmente em aplicações nucleares e como fonte de radiação para dispositivos de detecção de radiação."
+    },
+    "85": {
+        "name": "Ástato",
+        "symbol": "At",
+        "atomic_number": 85,
+        "atomic_mass": 210,
+        "group": 17,
+        "period": 6,
+        "category": "Halogênio",
+        "description": "O astato é um halogênio radioativo extremamente raro na natureza. Ele é altamente instável e sua principal aplicação é na pesquisa científica, embora tenha sido estudado para usos em tratamentos de radiação devido à sua radioatividade."
+    },
+    "86": {
+        "name": "Radônio",
+        "symbol": "Rn",
+        "atomic_number": 86,
+        "atomic_mass": 222,
+        "group": 18,
+        "period": 6,
+        "category": "Gás nobre",
+        "description": "O radônio é um gás nobre radioativo, incolor, inodoro e insípido. Ele é produzido naturalmente a partir da decomposição do radônio e é considerado um risco à saúde, pois pode se acumular em espaços fechados, como porões, e aumentar o risco de câncer pulmonar."
+    },
+    "87": {
+        "name": "Frâncio",
+        "symbol": "Fr",
+        "atomic_number": 87,
+        "atomic_mass": 223,
+        "group": 1,
+        "period": 7,
+        "category": "Metal alcalino",
+        "description": "O frâncio é um metal alcalino altamente radioativo e raro, encontrado em quantidades mínimas na natureza. Ele é extremamente instável e seu uso é restrito à pesquisa científica devido à sua radioatividade e alta reatividade."
+    },
+    "88": {
+        "name": "Rádio",
+        "symbol": "Ra",
+        "atomic_number": 88,
+        "atomic_mass": 222,
+        "group": 18,
+        "period": 7,
+        "category": "Metal alcalino-terroso",
+        "description": "O rádio é um metal alcalino-terroso altamente radioativo, descoberto por Marie e Pierre Curie. Ele foi amplamente utilizado no passado em tratamentos médicos, mas devido à sua alta radioatividade, seu uso foi reduzido devido aos riscos à saúde."
+    },
+    "89": {
+        "name": "Actínio",
+        "symbol": "Ac",
+        "atomic_number": 89,
+        "atomic_mass": 227,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O áctinio é um metal radioativo de cor prateada, altamente reativo e utilizado principalmente em pesquisas científicas e em reatores nucleares devido à sua propriedade de emitir radiação."
+    },
+    "90": {
+        "name": "Tório",
+        "symbol": "Th",
+        "atomic_number": 90,
+        "atomic_mass": 232.0381,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O tório é um metal radioativo de cor prateada, utilizado principalmente como combustível nuclear em reatores e em ligas de alta resistência. Ele também tem sido estudado como uma alternativa mais segura ao urânio em alguns tipos de reatores nucleares."
+    },
+    "91": {
+        "name": "Protactínio",
+        "symbol": "Pa",
+        "atomic_number": 91,
+        "atomic_mass": 231.0359,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O protactínio é um metal radioativo e raro, encontrado em pequenas quantidades na crosta terrestre. Ele é utilizado principalmente em pesquisas nucleares, especialmente em estudos sobre o ciclo de combustíveis nucleares e na produção de energia nuclear."
+    },
+    "92": {
+        "name": "Urânio",
+        "symbol": "U",
+        "atomic_number": 92,
+        "atomic_mass": 238.0289,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O urânio é um metal radioativo, de cor prateada e altamente denso, utilizado principalmente como combustível nuclear em reatores e na produção de energia. Devido à sua radioatividade, também é empregado em armamentos nucleares e tem sido estudado em pesquisas sobre radiação e seus efeitos."
+    },
+    "93": {
+        "name": "Neptúnio",
+        "symbol": "Np",
+        "atomic_number": 93,
+        "atomic_mass": 237,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O néptunio é um metal radioativo, de cor prateada, produzido artificialmente em reatores nucleares. Ele é utilizado principalmente em pesquisas nucleares e em algumas aplicações em ciência dos materiais, além de ser empregado em estudos sobre reações nucleares e radiação."
+    },
+    "94": {
+        "name": "Plutônio",
+        "symbol": "Pu",
+        "atomic_number": 94,
+        "atomic_mass": 244,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O plutônio é um metal radioativo, altamente tóxico e físsil, utilizado principalmente como combustível em reatores nucleares e na fabricação de armas nucleares. Devido à sua alta radioatividade e toxicidade, o plutônio é tratado com extremo cuidado em aplicações científicas e industriais."
+    },
+    "95": {
+        "name": "Amerício",
+        "symbol": "Am",
+        "atomic_number": 95,
+        "atomic_mass": 243,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O américo é um metal radioativo de cor prateada, utilizado principalmente em fontes de radiação para detectores e em dispositivos de ignição. Ele foi o primeiro elemento sintético a ser descoberto após o plutônio e tem aplicações em pesquisas nucleares e em tratamentos médicos."
+    },
+    "96": {
+        "name": "Cúrio",
+        "symbol": "Cm",
+        "atomic_number": 96,
+        "atomic_mass": 247,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O cúrio é um metal radioativo, altamente tóxico e físsil, utilizado principalmente em pesquisa nuclear e como fonte de radiação para experimentos científicos. Ele foi descoberto por Marie e Pierre Curie e tem aplicações em geradores termoelétricos e em alguns tipos de tratamentos médicos."
+    },
+    "97": {
+        "name": "Berquélio",
+        "symbol": "Bk",
+        "atomic_number": 97,
+        "atomic_mass": 247,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O berquélio é um metal radioativo, produzido artificialmente em laboratórios. Ele foi o primeiro elemento sintético a ser nomeado em homenagem à cidade de Berkeley, na Califórnia, onde foi descoberto. O berquélio é utilizado principalmente em pesquisas científicas e tem aplicações limitadas devido à sua alta radioatividade."
+    },
+    "98": {
+        "name": "Califórnio",
+        "symbol": "Cf",
+        "atomic_number": 98,
+        "atomic_mass": 251,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O califórnio é um metal radioativo, altamente tóxico e físsil, utilizado principalmente em reatores nucleares e como fonte de nêutrons. Ele foi descoberto na Universidade da Califórnia e tem aplicações em pesquisas científicas, como na detecção de minerais e no tratamento de câncer."
+    },
+    "99": {
+        "name": "Einsténio",
+        "symbol": "Es",
+        "atomic_number": 99,
+        "atomic_mass": 252,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O einstênio é um metal radioativo, utilizado principalmente em pesquisas científicas. Foi descoberto como produto da explosão de uma bomba de hidrogênio e é utilizado em fontes de nêutrons e na análise de materiais em experimentos nucleares. Seu nome foi dado em homenagem ao físico Albert Einstein."
+    },
+    "100": {
+        "name": "Férmio",
+        "symbol": "Fm",
+        "atomic_number": 100,
+        "atomic_mass": 257,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O férmio é um metal radioativo, descoberto em 1952, e é utilizado principalmente em pesquisas nucleares. Ele foi nomeado em homenagem ao físico Enrico Fermi, sendo um dos elementos mais pesados e instáveis da tabela periódica, com aplicações limitadas devido à sua alta radioatividade."
+    },
+    "101": {
+        "name": "Mendelévio",
+        "symbol": "Md",
+        "atomic_number": 101,
+        "atomic_mass": 258,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O mendelévio é um metal radioativo, nomeado em homenagem ao químico Dmitri Mendeléyev, criador da tabela periódica. Ele é produzido artificialmente e utilizado principalmente em pesquisas científicas devido à sua alta radioatividade e instabilidade."
+    },
+    "102": {
+        "name": "Nobélio",
+        "symbol": "No",
+        "atomic_number": 102,
+        "atomic_mass": 259,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O nobélio é um metal radioativo, nomeado em homenagem a Alfred Nobel, o inventor da dinamite. Ele é produzido artificialmente e utilizado em pesquisas científicas, especialmente em estudos sobre a síntese de elementos superpesados e suas propriedades nucleares."
+    },
+    "103": {
+        "name": "Laurêncio",
+        "symbol": "Lr",
+        "atomic_number": 103,
+        "atomic_mass": 262,
+        "group": 3,
+        "period": 7,
+        "category": "Actinídios",
+        "description": "O laurêncio é um metal radioativo, produzido artificialmente e nomeado em homenagem ao físico Ernest Lawrence. Ele é utilizado principalmente em pesquisas nucleares, sendo um dos elementos mais pesados e instáveis da tabela periódica."
+    },
+    "104": {
+        "name": "Rutherfórdio",
+        "symbol": "Rf",
+        "atomic_number": 104,
+        "atomic_mass": 261,
+        "group": 4,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O rutherfordio é um metal de transição altamente radioativo e instável, nomeado em homenagem ao físico Ernest Rutherford. Ele foi produzido artificialmente e tem aplicações limitadas, sendo usado principalmente em pesquisas científicas sobre a química dos elementos superpesados."
+    },
+    "105": {
+        "name": "Dúbnio",
+        "symbol": "Db",
+        "atomic_number": 105,
+        "atomic_mass": 262,
+        "group": 5,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O dubnío é um metal de transição superpesado e altamente radioativo, produzido artificialmente. Ele foi nomeado em homenagem à cidade de Dubna, na Rússia, e tem aplicações limitadas, sendo usado principalmente em pesquisas nucleares sobre elementos superpesados e suas propriedades."
+    },
+    "106": {
+        "name": "Seabórgio",
+        "symbol": "Sg",
+        "atomic_number": 106,
+        "atomic_mass": 266,
+        "group": 6,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O seabórgio é um metal de transição altamente radioativo e instável, produzido artificialmente. Foi nomeado em homenagem ao químico Glenn T. Seaborg, que contribuiu significativamente para o estudo dos elementos actinídeos. O seabórgio tem aplicações limitadas, sendo utilizado principalmente em pesquisas nucleares."
+    },
+    "107": {
+        "name": "Bóhrio",
+        "symbol": "Bh",
+        "atomic_number": 107,
+        "atomic_mass": 264,
+        "group": 7,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O bóhrio é um metal de transição superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem ao físico Niels Bohr, famoso por suas contribuições à teoria quântica. O bóhrio tem aplicações limitadas, sendo utilizado principalmente em pesquisas científicas sobre elementos superpesados."
+    },
+    "108": {
+        "name": "Hássio",
+        "symbol": "Hs",
+        "atomic_number": 108,
+        "atomic_mass": 277,
+        "group": 8,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O hássio é um metal de transição superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem à cidade de Hessen, na Alemanha, e tem aplicações limitadas, sendo usado principalmente em pesquisas científicas sobre elementos superpesados e suas propriedades."
+    },
+    "109": {
+        "name": "Meitnério",
+        "symbol": "Mt",
+        "atomic_number": 109,
+        "atomic_mass": 268,
+        "group": 9,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O meitnério é um metal de transição superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem à física Lise Meitner, conhecida por seu trabalho na fissão nuclear. O meitnério tem aplicações limitadas, sendo utilizado principalmente em pesquisas sobre os elementos superpesados."
+    },
+    "110": {
+        "name": "Darmstádio",
+        "symbol": "Ds",
+        "atomic_number": 110,
+        "atomic_mass": 271,
+        "group": 10,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O darmstádio é um metal de transição superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem à cidade de Darmstadt, na Alemanha, onde foi descoberto. O darmstádio tem aplicações limitadas, sendo utilizado principalmente em pesquisas científicas sobre elementos superpesados."
+    },
+    "111": {
+        "name": "Roentgênio",
+        "symbol": "Rg",
+        "atomic_number": 111,
+        "atomic_mass": 272,
+        "group": 11,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O roentgênio é um metal de transição superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem ao físico Wilhelm Röntgen, famoso pela descoberta dos raios-X. O roentgênio tem aplicações limitadas, sendo utilizado principalmente em pesquisas científicas sobre elementos superpesados."
+    },
+    "112": {
+        "name": "Copernício",
+        "symbol": "Cn",
+        "atomic_number": 112,
+        "atomic_mass": 277,
+        "group": 12,
+        "period": 7,
+        "category": "Metal de transição",
+        "description": "O copernício é um metal de transição superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem ao astrônomo Nicolau Copérnico. O copernício tem aplicações limitadas, sendo utilizado principalmente em pesquisas sobre elementos superpesados e suas propriedades nucleares."
+    },
+    "113": {
+        "name": "Nipônio",
+        "symbol": "Nh",
+        "atomic_number": 113,
+        "atomic_mass": 284,
+        "group": 13,
+        "period": 7,
+        "category": "Metal",
+        "description": "O nipônio é um metal superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem ao Japão (Nihon), o país que contribuiu significativamente para sua descoberta. O nipônio tem aplicações limitadas, sendo utilizado principalmente em pesquisas científicas sobre elementos superpesados."
+    },
+    "114": {
+        "name": "Fleróvio",
+        "symbol": "Fl",
+        "atomic_number": 114,
+        "atomic_mass": 289,
+        "group": 14,
+        "period": 7,
+        "category": "Metal",
+        "description": "O flevório é um metal superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem à cidade de Flerov, na Rússia, onde foi realizado um dos experimentos para sua descoberta. O flevório tem aplicações limitadas, sendo utilizado principalmente em pesquisas sobre elementos superpesados e suas propriedades nucleares."
+    },
+    "115": {
+        "name": "Moscóvio",
+        "symbol": "Mc",
+        "atomic_number": 115,
+        "atomic_mass": 288,
+        "group": 15,
+        "period": 7,
+        "category": "Metal",
+        "description": "O moscóvio é um metal superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem à cidade de Moscovo, na Rússia. O moscóvio tem aplicações limitadas e é usado principalmente em pesquisas científicas sobre elementos superpesados e suas propriedades nucleares."
+    },
+    "116": {
+        "name": "Livermório",
+        "symbol": "Lv",
+        "atomic_number": 116,
+        "atomic_mass": 292,
+        "group": 16,
+        "period": 7,
+        "category": "Metal",
+        "description": "O livermório é um metal superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem ao Laboratório Nacional de Livermore, nos Estados Unidos, em reconhecimento às contribuições para a pesquisa nuclear. O livermório tem aplicações limitadas, sendo utilizado principalmente em pesquisas sobre os elementos superpesados."
+    },
+    "117": {
+        "name": "Tenesso",
+        "symbol": "Ts",
+        "atomic_number": 117,
+        "atomic_mass": 288,
+        "group": 17,
+        "period": 7,
+        "category": "Halogênio",
+        "description": "O tenessônio é um metal superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem ao estado do Tennessee, nos Estados Unidos. O tenessônio tem aplicações limitadas, sendo utilizado principalmente em pesquisas científicas sobre elementos superpesados e suas propriedades nucleares."
+    },
+    "118": {
+        "name": "Organéssio",
+        "symbol": "Og",
+        "atomic_number": 118,
+        "atomic_mass": 294,
+        "group": 18,
+        "period": 7,
+        "category": "Gás nobre",
+        "description": "O organéssio é um gás nobre superpesado e altamente radioativo, produzido artificialmente. Foi nomeado em homenagem ao químico soviético Yuri Oganessian, que contribuiu significativamente para a pesquisa de elementos superpesados. O organessio tem aplicações extremamente limitadas, sendo utilizado apenas em experimentos de pesquisa científica."
+    }
+}
