@@ -20,10 +20,12 @@ def get_element_color(category):
         "Metal alcalino-terroso": "#FFC107",  # Amarelo escuro
         "Gás nobre": "#64B5F6",  # Azul claro
         "Metaloide": "#A5D6A7",  # Verde claro
-        "Halogêneo": "#FF7043",  # Laranja
-        "Não-metal": "#F48FB1",  # Rosa claro
+        "Halogênio": "#FF7043",  # Laranja
+        "Não-metal": "#7CA67E",  # Verde claro
         "Metal de transição": "#90A4AE",  # Cinza
-        "Lantânio e actinídeo": "#FFD54F"  # Amarelo suave
+        "Metal" : "#A7C9F9", #Azul bebê
+        "Lantanídeos": "#9F0081",  # Roxo
+        "Actinídios" : "#FE60C4"  # Rosa 
     }
     return colors.get(category, "#FFFFFF")  # Branco como padrão, caso não tenha categoria
 
@@ -39,7 +41,7 @@ def show_details(element_id):
         details += f"Período: {element['period']}\n"
         details += f"Categoria: {element['category']}\n"
         details += f"Descrição: {element['description']}"
-        
+
         # Exibir os detalhes em uma caixa de mensagem
         messagebox.showinfo("Detalhes do Elemento", details)
     except KeyError:
@@ -47,32 +49,47 @@ def show_details(element_id):
 
 def create_table(root):
     colunas = 18  # Total de colunas (grupos)
-    
+
     # Ajuste de tamanho dos botões
     button_width = 8  # Largura do botão
     button_height = 3  # Altura do botão
 
     # Organizar os botões para os elementos na tabela periódica
+    column_position = 4  # Para os Lantanídeos e Actinídeos
+
     for element_id, element_data in elements_data.items():
+
         period = int(element_data["period"])
         group = int(element_data["group"])
 
-        # Verificar se o elemento é um Lantanídeo ou Actinídeo
-        if period > 7:  # Lantanídeos e Actinídeos
-            row = 9  # Colocar os Lantanídeos e Actinídeos abaixo da tabela principal (linha 9)
-            if group > 3:  # Ajustar para o grupo correto
-                group = group + 2  # Para encaixar na tabela corretamente
+        # Ajuste para os Lantanídeos (ID de 57 a 71) - linha 9
+        if 57 <= element_data["atomic_number"] <= 71:  # Lantanídeos
+            row = 9  # Colocar os Lantanídeos abaixo da tabela principal (linha 9)
+
+            # Colocar os elementos Lantanídeos em colunas consecutivas
+            element_button = tk.Button(root, text=f"{element_data['name']}", width=button_width, height=button_height,
+                                       bg=get_element_color(element_data["category"]),
+                                       command=lambda e=element_id: show_details(e))
+            element_button.grid(row=row, column=column_position)  # Colocar o botão na coluna
+            column_position += 1  # Incrementa a posição da coluna para o próximo elemento
+
+        # Ajuste para os Actinídeos (ID de 89 a 103) - linha 10
+        elif 89 <= element_data["atomic_number"] <= 103:  # Actinídeos
+            row = 10  # Colocar os Actinídeos abaixo dos Lantanídeos (linha 10)
+
+            # Colocar os elementos Actinídeos em colunas consecutivas
+            element_button = tk.Button(root, text=f"{element_data['name']}", width=button_width, height=button_height,
+                                       bg=get_element_color(element_data["category"]),
+                                       command=lambda e=element_id: show_details(e))
+            element_button.grid(row=row, column=column_position - 15)  # Colocar o botão na coluna
+            column_position += 1  # Incrementa a posição da coluna para o próximo elemento
+
         else:
             row = period  # Manter os outros elementos conforme o período e grupo
-
-        # Definir a cor do botão conforme a categoria do elemento
-        color = get_element_color(element_data["category"])
-
-        # Criar um botão para cada elemento
-        element_button = tk.Button(root, text=f"{element_data['name']}", width=button_width, height=button_height,
-                                   bg=color, command=lambda e=element_id: show_details(e))
-        element_button.grid(row=row, column=group)  # Colocar o botão na posição correta
-
+            element_button = tk.Button(root, text=f"{element_data['name']}", width=button_width, height=button_height,
+                                       bg=get_element_color(element_data["category"]),
+                                       command=lambda e=element_id: show_details(e))
+            element_button.grid(row=row, column=group)  # Colocar o botão na posição correta
 
 # Criar a janela principal
 root = tk.Tk()
