@@ -115,8 +115,8 @@ def create_table(root):
 
             # Colocar os elementos Lantanídeos em colunas consecutivas
             element_button = tk.Button(root, text=f"{element_data['symbol']}", font=("Comic Sans MS", 9), width=button_width, height=button_height,
-                                       bg=get_element_color(element_data["category"]),
-                                       command=lambda e=element_id: show_details_custom(e))
+                                        bg=get_element_color(element_data["category"]),
+                                        command=lambda e=element_id: show_details_custom(e))
             element_button.grid(row=row, column=column_position)  # Colocar o botão na coluna
             column_position += 1  # Incrementa a posição da coluna para o próximo elemento
 
@@ -126,16 +126,16 @@ def create_table(root):
 
             # Colocar os elementos Actinídeos em colunas consecutivas
             element_button = tk.Button(root, text=f"{element_data['symbol']}", font=("Comic Sans MS", 9), width=button_width, height=button_height,
-                                       bg=get_element_color(element_data["category"]),
-                                       command=lambda e=element_id: show_details_custom(e))
+                                        bg=get_element_color(element_data["category"]),
+                                        command=lambda e=element_id: show_details_custom(e))
             element_button.grid(row=row, column=column_position - 15)  # Colocar o botão na coluna
             column_position += 1  # Incrementa a posição da coluna para o próximo elemento
 
         else:
             row = period  # Manter os outros elementos conforme o período e grupo
             element_button = tk.Button(root, text=f"{element_data['symbol']}", font=("Comic Sans MS", 9), width=button_width, height=button_height,
-                                       bg=get_element_color(element_data["category"]),
-                                       command=lambda e=element_id: show_details_custom(e))
+                                        bg=get_element_color(element_data["category"]),
+                                        command=lambda e=element_id: show_details_custom(e))
             element_button.grid(row=row, column=group)  # Colocar o botão na posição correta
 
     root.config(bg='#2b2b2b')  # Cor de fundo da tela principal

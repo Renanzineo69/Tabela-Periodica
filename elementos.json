@@ -410,7 +410,7 @@
         "description": "O nióbio é um metal de transição de cor prateada, maleável e altamente resistente à corrosão. Ele é amplamente utilizado em ligas metálicas, especialmente na fabricação de supercondutores, e em aplicações aeroespaciais devido à sua excelente resistência a altas temperaturas."
     },
     "42": {
-        "name": "Molibdénio",
+        "name": "Molibdênio",
         "symbol": "Mo",
         "atomic_number": 42,
         "atomic_mass": 95.94,
@@ -657,7 +657,7 @@
         "group": 3,
         "period": 6,
         "category": "Lantanídeos",
-        "description": "O dísprosio é um metal raro, prateado e magnético, utilizado principalmente em imãs de alto desempenho e em ligas metálicas. Ele tem aplicações em sistemas de resfriamento de reatores nucleares e é empregado em algumas tecnologias de laser e em dispositivos de armazenamento magnético."
+        "description": "O disprósio é um metal raro, prateado e magnético, utilizado principalmente em imãs de alto desempenho e em ligas metálicas. Ele tem aplicações em sistemas de resfriamento de reatores nucleares e é empregado em algumas tecnologias de laser e em dispositivos de armazenamento magnético."
     },
     "67": {
         "name": "Hólmio",
