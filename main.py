@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import json
+import os
 
 # Função para exibir os detalhes do elemento em uma janela personalizada
 def show_details_custom(element_id):
@@ -15,6 +16,7 @@ def show_details_custom(element_id):
         details_window.title(f"Detalhes de {element['name']}")
         details_window.config(bg='#EAEAEA')
         details_window.resizable(False, False)  # Impede a mudança de tamanho
+        set_icon(details_window)
 
         # Centralizar a janela de detalhes
         window_width = 400
@@ -75,6 +77,11 @@ def get_element_color(category):
         "Actinídios" : "#FE60C4"  # Rosa 
     }
     return colors.get(category, "#FFFFFF")  # Branco como padrão, caso não tenha categoria
+
+# Função que define o ícone da janela, se o caminho do ícone existir
+def set_icon(root, icon_path="images/favicon.ico"):
+    if os.path.exists(icon_path):
+        root.iconbitmap(icon_path)
 
 # Função para carregar os dados dos elementos químicos
 def load_data():
@@ -145,6 +152,7 @@ def create_table(root):
 # Criar a janela principal
 root = tk.Tk()
 root.title("Tabela Periódica")
+set_icon(root)
 
 # Carregar os dados dos elementos
 elements_data = load_data()
