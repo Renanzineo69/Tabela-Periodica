@@ -114,7 +114,7 @@ def create_table(root):
             row = 9  # Colocar os Lantanídeos abaixo da tabela principal (linha 9)
 
             # Colocar os elementos Lantanídeos em colunas consecutivas
-            element_button = tk.Button(root, text=f"{element_data['name']}", width=button_width, height=button_height,
+            element_button = tk.Button(root, text=f"{element_data['symbol']}", font=("Comic Sans MS", 9), width=button_width, height=button_height,
                                        bg=get_element_color(element_data["category"]),
                                        command=lambda e=element_id: show_details_custom(e))
             element_button.grid(row=row, column=column_position)  # Colocar o botão na coluna
@@ -122,10 +122,10 @@ def create_table(root):
 
         # Ajuste para os Actinídeos (ID de 89 a 103) - linha 10
         elif 89 <= element_data["atomic_number"] <= 103:  # Actinídeos
-            row = 10  # Colocar os Actinídeos abaixo dos Lantanídeos (linha 10)
+            row = 10 # Colocar os Actinídeos abaixo dos Lantanídeos (linha 10)
 
             # Colocar os elementos Actinídeos em colunas consecutivas
-            element_button = tk.Button(root, text=f"{element_data['name']}", width=button_width, height=button_height,
+            element_button = tk.Button(root, text=f"{element_data['symbol']}", font=("Comic Sans MS", 9), width=button_width, height=button_height,
                                        bg=get_element_color(element_data["category"]),
                                        command=lambda e=element_id: show_details_custom(e))
             element_button.grid(row=row, column=column_position - 15)  # Colocar o botão na coluna
@@ -133,7 +133,7 @@ def create_table(root):
 
         else:
             row = period  # Manter os outros elementos conforme o período e grupo
-            element_button = tk.Button(root, text=f"{element_data['name']}", width=button_width, height=button_height,
+            element_button = tk.Button(root, text=f"{element_data['symbol']}", font=("Comic Sans MS", 9), width=button_width, height=button_height,
                                        bg=get_element_color(element_data["category"]),
                                        command=lambda e=element_id: show_details_custom(e))
             element_button.grid(row=row, column=group)  # Colocar o botão na posição correta
