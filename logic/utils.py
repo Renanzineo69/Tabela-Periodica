@@ -1,5 +1,15 @@
 import os
-from PyQt5.QtGui import QIcon
+from PyQt5.QtGui import QIcon, QColor
+
+def get_hover_color(color):
+    # Converte a cor para o formato QColor
+    qcolor = QColor(color)
+    
+    # Reduz a luminosidade para criar um tom mais baixo
+    qcolor.setHsv(qcolor.hue(), qcolor.saturation(), max(0, qcolor.value() - 30))  # Ajuste o valor conforme necessário
+    
+    # Retorna a cor modificada em formato hexadecimal
+    return qcolor.name()
 
 def get_element_color(category):
     """ Retorna a cor correspondente à categoria do elemento químico """

@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QWidget, QGridLayout, QPushButton, QDesktopWidget
 from logic.data_loader import load_data
-from logic.utils import get_element_color
+from logic.utils import get_element_color, get_hover_color
 from ui.details import ElementDetails
 
 class PeriodicTable(QWidget):
@@ -34,13 +34,19 @@ class PeriodicTable(QWidget):
 
             button = QPushButton(element["symbol"])
             button.setStyleSheet(f"""
-                background-color: {get_element_color(element['category'])}; 
-                font-size: 14px; 
-                font-weight: bold;
-                width: 45px; 
-                height: 45px;
-                border-radius: 5px;
+                QPushButton {{
+                    background-color: {get_element_color(element['category'])}; 
+                    font-size: 14px; 
+                    font-weight: bold;
+                    width: 45px; 
+                    height: 45px;
+                    border-radius: 5px;
+                }}
+                QPushButton:hover {{
+                    background-color: {get_hover_color(get_element_color(element['category']))};  /* Tom mais baixo */
+                }}
             """)
+        
             button.clicked.connect(lambda _, e=element: self.show_details(e))
             layout.addWidget(button, row, column)
 

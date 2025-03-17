@@ -106,13 +106,18 @@ class ElementDetails(QWidget):
         # 🔹 Botão estilizado para fechar
         close_button = QPushButton("Fechar")
         close_button.setStyleSheet("""
-            background-color: #7289DA; 
-            color: white; 
-            font-size: 13px; 
-            font-weight: bold;
-            padding: 6px; 
-            border-radius: 6px;
-            margin-top: 5px;
+            QPushButton {
+                background-color: #7289DA; 
+                color: white; 
+                font-size: 13px; 
+                font-weight: bold;
+                padding: 6px; 
+                border-radius: 6px;
+                margin-top: 5px;
+            }
+            QPushButton:hover {
+                background-color: #5b6eae;
+            }
         """)
         close_button.clicked.connect(self.close)
         layout.addWidget(close_button)
