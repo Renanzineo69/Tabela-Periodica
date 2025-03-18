@@ -5,7 +5,6 @@ def load_data(json_path="elementos.json"):
     try:
         with open(json_path, "r", encoding="utf-8") as file:
             data = json.load(file)
-            print(f"Dados carregados: {len(data)} elementos")
             return data
     except Exception as e:
         print(f"Erro ao carregar o arquivo JSON: {e}")
